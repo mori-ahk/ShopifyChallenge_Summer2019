@@ -8,12 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CustomCollectionViewController: UIViewController {
+    var dataSource = CustomCollection()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.green.withAlphaComponent(0.7)
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        NetworkServices.sharedInstance().requestData(for: APIRouter.CustomCollection) { (data: CustomCollection) -> Void in
+            self.dataSource = data
+        }
     }
 
 

@@ -10,7 +10,7 @@ import Foundation
 
 struct CustomCollection: Decodable {
     
-    private let customCollection : [ShopifyCollection]
+    let customCollection : [ShopifyCollection]
     
     enum CodingKey: String, Swift.CodingKey {
         case customCollection = "custom_collections"
@@ -29,37 +29,41 @@ struct CustomCollection: Decodable {
 
 extension CustomCollection {
     
-    private struct ShopifyCollection : Decodable {
+    struct ShopifyCollection : Decodable {
         
         let id : Int
         let title : String
+        let bodyHtml : String
         let imageObject: ShopifyImageCollection
         
         enum CodingKey: String, Swift.CodingKey {
             case id
             case title
             case image
+            case bodyHtml = "body_html"
         }
         
         init() {
             self.id = 0
             self.title = ""
+            self.bodyHtml = ""
             self.imageObject = ShopifyImageCollection()
+            
         }
         
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: CodingKey.self)
             id = try container.decode(Int.self, forKey: .id)
             title = try container.decode(String.self, forKey: .title)
+            bodyHtml = try container.decode(String.self, forKey: .bodyHtml)
             imageObject = try container.decode(ShopifyImageCollection.self, forKey: .image)
         }
-        
     }
 }
 
 extension CustomCollection {
     
-    private struct ShopifyImageCollection: Decodable {
+    struct ShopifyImageCollection: Decodable {
         
         let src : String
         

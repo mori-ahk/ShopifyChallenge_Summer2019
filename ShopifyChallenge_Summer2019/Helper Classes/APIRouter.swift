@@ -36,7 +36,7 @@ enum APIRouter : URLRequestConvertible {
         case .CustomCollection:
             return "custom_collections.json?page=1&access_token=\(Contants.accessToken)"
         case .Collection(let collectionID):
-            return "collects.json?collection_id=\(collectionID))&page=1&access_token=\(Contants.accessToken)"
+            return "collects.json?collection_id=\(collectionID)&page=1&access_token=\(Contants.accessToken)"
         case .Products(let productIDs):
                 let fullProductIDForQuery = getProductionIDForQuery(from: productIDs)
             return "products.json?ids=\(fullProductIDForQuery)&page=1&access_token=\(Contants.accessToken)"

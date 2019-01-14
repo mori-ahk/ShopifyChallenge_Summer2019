@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		719CBA1C540F06E130F1B8F2 /* Pods_ShopifyChallenge_Summer2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51D9125ECEAB7F020BA2788 /* Pods_ShopifyChallenge_Summer2019.framework */; };
+		F50033FF21EC19CD00D76D48 /* CollectionDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50033FE21EC19CD00D76D48 /* CollectionDetailTableViewCell.swift */; };
+		F526B52021EBC9A200801414 /* Collect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F526B51F21EBC9A200801414 /* Collect.swift */; };
+		F526B52221EBCB5000801414 /* CollectionDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F526B52121EBCB5000801414 /* CollectionDetailTableViewController.swift */; };
+		F526B52421EBE3BB00801414 /* ProductDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F526B52321EBE3BB00801414 /* ProductDetailTableViewCell.swift */; };
+		F526B52621EBE48D00801414 /* CachableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F526B52521EBE48D00801414 /* CachableImage.swift */; };
 		F5B13ACC21EAA82C0039BC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B13ACB21EAA82C0039BC43 /* AppDelegate.swift */; };
-		F5B13ACE21EAA82C0039BC43 /* CustomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B13ACD21EAA82C0039BC43 /* CustomCollectionViewController.swift */; };
+		F5B13ACE21EAA82C0039BC43 /* CustomCollectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B13ACD21EAA82C0039BC43 /* CustomCollectionTableViewController.swift */; };
 		F5B13AD321EAA82C0039BC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B13AD221EAA82C0039BC43 /* Assets.xcassets */; };
 		F5B13AD621EAA82C0039BC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B13AD421EAA82C0039BC43 /* LaunchScreen.storyboard */; };
 		F5B13ADE21EAB0430039BC43 /* CustomCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B13ADD21EAB0430039BC43 /* CustomCollection.swift */; };
@@ -21,10 +26,15 @@
 /* Begin PBXFileReference section */
 		1B29EA7D6021E984B38E00C1 /* Pods-ShopifyChallenge_Summer2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyChallenge_Summer2019.release.xcconfig"; path = "Target Support Files/Pods-ShopifyChallenge_Summer2019/Pods-ShopifyChallenge_Summer2019.release.xcconfig"; sourceTree = "<group>"; };
 		886990F13FCF10F534D93BA4 /* Pods-ShopifyChallenge_Summer2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyChallenge_Summer2019.debug.xcconfig"; path = "Target Support Files/Pods-ShopifyChallenge_Summer2019/Pods-ShopifyChallenge_Summer2019.debug.xcconfig"; sourceTree = "<group>"; };
+		F50033FE21EC19CD00D76D48 /* CollectionDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailTableViewCell.swift; sourceTree = "<group>"; };
 		F51D9125ECEAB7F020BA2788 /* Pods_ShopifyChallenge_Summer2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyChallenge_Summer2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F526B51F21EBC9A200801414 /* Collect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collect.swift; sourceTree = "<group>"; };
+		F526B52121EBCB5000801414 /* CollectionDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailTableViewController.swift; sourceTree = "<group>"; };
+		F526B52321EBE3BB00801414 /* ProductDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F526B52521EBE48D00801414 /* CachableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachableImage.swift; sourceTree = "<group>"; };
 		F5B13AC821EAA82C0039BC43 /* ShopifyChallenge_Summer2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopifyChallenge_Summer2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B13ACB21EAA82C0039BC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5B13ACD21EAA82C0039BC43 /* CustomCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewController.swift; sourceTree = "<group>"; };
+		F5B13ACD21EAA82C0039BC43 /* CustomCollectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionTableViewController.swift; sourceTree = "<group>"; };
 		F5B13AD221EAA82C0039BC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B13AD521EAA82C0039BC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B13AD721EAA82C0039BC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +65,34 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F500340021EC296400D76D48 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F526B52321EBE3BB00801414 /* ProductDetailTableViewCell.swift */,
+				F50033FE21EC19CD00D76D48 /* CollectionDetailTableViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		F500340121EC297800D76D48 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5B13AE221EABA070039BC43 /* APIRouter.swift */,
+				F5B13AE421EAC18A0039BC43 /* NetworkServices.swift */,
+				F526B52521EBE48D00801414 /* CachableImage.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		F500340221EC299E00D76D48 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5B13ACD21EAA82C0039BC43 /* CustomCollectionTableViewController.swift */,
+				F526B52121EBCB5000801414 /* CollectionDetailTableViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		F5B13ABF21EAA82C0039BC43 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				F5B13ACB21EAA82C0039BC43 /* AppDelegate.swift */,
-				F5B13ACD21EAA82C0039BC43 /* CustomCollectionViewController.swift */,
-				F5B13AE221EABA070039BC43 /* APIRouter.swift */,
-				F5B13AE421EAC18A0039BC43 /* NetworkServices.swift */,
+				F500340221EC299E00D76D48 /* View Controller */,
+				F500340121EC297800D76D48 /* Helper Classes */,
+				F500340021EC296400D76D48 /* Custom Cell */,
 				F5B13AE121EAB9D20039BC43 /* Model */,
 				F5B13AD221EAA82C0039BC43 /* Assets.xcassets */,
 				F5B13AD421EAA82C0039BC43 /* LaunchScreen.storyboard */,
@@ -93,6 +131,7 @@
 			children = (
 				F5B13ADD21EAB0430039BC43 /* CustomCollection.swift */,
 				F5B13ADF21EAB22C0039BC43 /* Product.swift */,
+				F526B51F21EBC9A200801414 /* Collect.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,10 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B13ACE21EAA82C0039BC43 /* CustomCollectionViewController.swift in Sources */,
+				F5B13ACE21EAA82C0039BC43 /* CustomCollectionTableViewController.swift in Sources */,
 				F5B13AE021EAB22C0039BC43 /* Product.swift in Sources */,
+				F50033FF21EC19CD00D76D48 /* CollectionDetailTableViewCell.swift in Sources */,
+				F526B52021EBC9A200801414 /* Collect.swift in Sources */,
 				F5B13AE521EAC18A0039BC43 /* NetworkServices.swift in Sources */,
 				F5B13AE321EABA070039BC43 /* APIRouter.swift in Sources */,
+				F526B52421EBE3BB00801414 /* ProductDetailTableViewCell.swift in Sources */,
+				F526B52621EBE48D00801414 /* CachableImage.swift in Sources */,
+				F526B52221EBCB5000801414 /* CollectionDetailTableViewController.swift in Sources */,
 				F5B13ACC21EAA82C0039BC43 /* AppDelegate.swift in Sources */,
 				F5B13ADE21EAB0430039BC43 /* CustomCollection.swift in Sources */,
 			);

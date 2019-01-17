@@ -37,7 +37,7 @@ class NetworkServices {
                     let data = try? decoder.decode(Collect.self, from: response.data!) as! T
                     completionHandler(data)
                 case .Products:
-                    let data = try! decoder.decode(Products.self, from: response.data!) as! T
+                    let data = try? decoder.decode(Products.self, from: response.data!) as! T
                     completionHandler(data)
                 }
             case .failure(let error):

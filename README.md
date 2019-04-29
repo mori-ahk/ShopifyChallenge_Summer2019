@@ -1,5 +1,5 @@
 # ShopifyChallenge - Summer 2019
-Shopify asked to build this iOS mobile application to check coding skills for iOS internship positions(Winter 2018).
+Shopify asked to build this iOS mobile application to check coding skills for iOS internship positions(Summer 2019).
 ## Getting Started
 ### CocoaPods
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
